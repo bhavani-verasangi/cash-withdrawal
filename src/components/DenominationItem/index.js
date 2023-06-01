@@ -5,7 +5,7 @@ const DenominationItem = props => {
   const {denominationDetails, updateBalance} = props
   const {value} = denominationDetails
 
-  onClickDenominations = () => {
+  const onClickDenominations = () => {
     updateBalance(value)
   }
 
@@ -14,7 +14,7 @@ const DenominationItem = props => {
       <button
         className="button"
         type="button"
-        onClick={this.onClickDenominations}
+        onClick={onClickDenominations}
       >
         {value}
       </button>
