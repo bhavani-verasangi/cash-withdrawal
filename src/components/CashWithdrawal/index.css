@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.cash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
+  width: 80%;
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 30px;
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.currency {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+
+.choose-sum {
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
